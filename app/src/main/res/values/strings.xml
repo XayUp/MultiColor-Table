@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">MultiColor Table</string>
+	<string name="alert_dialog_app_storage_permission">Storage Permission</string>
+	<string name="alert_dialog_app_storage_permission_msg">MultiColor creates a file on internal storage as soon as the color table is exported and we can only do this when file and media storage is allowed.</string>
+	<string name="ok">Ok</string>
+	<string name="cancel">Cancel</string>
+	<string name="exit">Exit</string>
+	<string name="rgb_change_title">Change color</string>
+	<string name="rgb_change_id">Change color ID: </string>
+	<string name="nfp_popup_title">Project name: </string>
+	<string name="delete_diag_title">Delete items</string>
+	<string name="delete_diag_desc">Confirm removal?</string>
+	<string name="yes">Yes</string>
+	<string name="no">No</string>
+	<string name="list_projects_title">List projects</string>
+	<string name="list_color_table">List Color Table</string>
+	<string name="delete_file_fail">No files have been deleted</string>
+	<string name="selection_mode_title">Selection mode</string>
+	<string name="empty_field">The field cannot be empty!</string>
+	<string name="cop">Send to developer (XayUp)</string>
+	<string name="copy_log">Copy</string>
+	<string name="restart_app">Restart</string>
+	<string name="exitcrash">Exit</string>
+</resources>

@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/nfp_popup_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="6dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+		android:textSize="24sp"
+        android:text="@string/nfp_popup_title" />
+
+    <android.widget.EditText
+        android:id="@+id/nfp_popup_file_name_input"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/nfp_popup_title"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/nfp_popup_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nfp_popup_file_name_input"
+        android:layout_toLeftOf="@+id/nfp_popup_ok"
+        android:text="@string/cancel"
+		android:background="@android:color/transparent" />
+
+    <Button
+        android:id="@+id/nfp_popup_ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/nfp_popup_file_name_input"
+        android:text="@string/ok"
+		android:background="@android:color/transparent" />
+
+</RelativeLayout>
